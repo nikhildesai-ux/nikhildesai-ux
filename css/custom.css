@@ -8,7 +8,13 @@
 .bg-primary, .bg-primary a {
     color: #FFF !important;
 }
+a.btn-dark {
+    background-color: #ffa822!important;
+    color: #211b22!important;
+}
 
-
-
+H2 .typed {
+    color: #ffce86!important;
+    color: #ffa822!important;
+}
 
