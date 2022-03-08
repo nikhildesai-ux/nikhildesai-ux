@@ -5,6 +5,10 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+html {
+	background-color: #5B2564 !important;
+}
+
 .bg-primary, .bg-primary a {
     color: #FFF !important;
 }
@@ -18,7 +22,9 @@
 H2 .typed {
     color: #ffa822!important;
 }
-
+#footer a, #footer a:focus {
+    color: #FFF!important;
+}
 .form-border .form-control {
     border-bottom: 2px solid rgba(225, 225, 225, .4);
 	color: #ffa822;
