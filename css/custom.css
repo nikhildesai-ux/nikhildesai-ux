@@ -8,13 +8,21 @@
 .bg-primary, .bg-primary a {
     color: #FFF !important;
 }
-a.btn-dark {
+.featured-box-icon.bg-primary.rounded-circle {
+    color: #ffa822 !important;
+}
+.btn-dark, a.btn-dark {
     background-color: #ffa822!important;
     color: #211b22!important;
 }
-
 H2 .typed {
-    color: #ffce86!important;
     color: #ffa822!important;
 }
 
+.form-border .form-control {
+    border-bottom: 2px solid rgba(225, 225, 225, .4);
+	color: #ffa822;
+}
+.form-border .form-control:focus, .form-border .custom-select:focus {
+    border-bottom: 2px solid rgba(225, 225, 225, .8);
+}
