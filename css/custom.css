@@ -5,6 +5,10 @@
 	Overwriting Default Theme Styles for Better Hanlding Updates
 -----------------------------------------------------------------*/
 
+.bg-primary, .bg-primary a {
+    color: #FFF !important;
+}
+
 
 
 
