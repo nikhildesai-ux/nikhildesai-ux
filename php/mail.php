@@ -55,6 +55,14 @@ $mail = new PHPMailer(true);
 
 /* Add your SMTP Codes after this Line */
 
+$mail->isSMTP();
+$mail->SMTPDebug = 0;
+$mail->Host = 'smtp-relay.sendinblue.com';
+$mail->SMTPAuth = true;
+$mail->Username = "1point1s@gmail.com";
+$mail->Password = "8SVJdqc4hrmHpQK3";
+$mail->SMTPSecure = 'tls';
+$mail->Port = 587;
 
 // End of SMTP
 
