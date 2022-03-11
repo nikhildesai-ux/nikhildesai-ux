@@ -37,6 +37,9 @@ H2 .typed {
 .form-border .form-control:focus, .form-border .custom-select:focus {
     border-bottom: 2px solid rgba(225, 225, 225, .8);
 }
+.nav-pills .nav-link.active, .nav-pills.nav-light .nav-link.active, .nav-pills .show > .nav-link {
+    color: #FFF;
+}
 /*
 .border-start.border-2.border-primary.ps-3 h3:before {
     background-color: #5a2564;
