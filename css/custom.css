@@ -40,6 +40,9 @@ H2 .typed {
 .nav-pills .nav-link.active, .nav-pills.nav-light .nav-link.active, .nav-pills .show > .nav-link {
     color: #FFF;
 }
+.mark, mark {
+    background-color: #fff2ae;
+}
 /*
 .border-start.border-2.border-primary.ps-3 h3:before {
     background-color: #5a2564;
