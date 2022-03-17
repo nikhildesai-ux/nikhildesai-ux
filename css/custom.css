@@ -43,6 +43,9 @@ H2 .typed {
 .mark, mark {
     background-color: #fff6c8;
 }
+.portfolio .portfolio-box .portfolio-img img {
+    border-radius: 10px;
+}
 /*
 .border-start.border-2.border-primary.ps-3 h3:before {
     background-color: #5a2564;
